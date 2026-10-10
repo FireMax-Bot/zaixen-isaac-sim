@@ -1,0 +1,9 @@
+* text=auto
+*.pdf binary
+*.png binary
+*.usd binary
+*.db3 binary
+# scripts that run inside WSL/Linux must keep LF line endings
+ros_bridge/scripts/dds-server text eol=lf
+ros_bridge/scripts/runlabel text eol=lf
+ros_bridge/scripts/*.py text eol=lf
