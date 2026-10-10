@@ -1,0 +1,32 @@
+=========================================================================================================
+[PASS] ring road slab + outer sidewalk present                                      
+[PASS] 8 curb-return asphalt fills (+8 wedge fills)                                 
+[PASS] 4 continuous sidewalk bands with rounded curb returns                        
+[PASS] legacy square-cornered sidewalk boxes removed                                
+[PASS] ring centre line: dashes all the way round                                   94 dashes
+[PASS] give-way lines: 4 arms x 4 dashes                                            
+[PASS] every drivable top == roadSurfaceZ (0.02)                                    []
+[PASS] roads, ring, sidewalks, ground: static collider + physics material           []
+[PASS] scenery carries no colliders                                                 0 found
+[PASS] fixed physics timestep: 60 Hz PhysX scene + fixed-step player                60 steps/s, fixed stepping=True
+[PASS] NPC pool built (30 cars)                                                     30 cars
+[PASS] every NPC is a kinematic rigid body with a collider and contact reports      kinematic 30, contact-report 30, collider 30 of 30
+[PASS] ego body has colliders (chassis + wheels + suspension)                       27 collider prims
+[PASS] NPC footprint matches ego footprint (within 8%)                              NPC 0.480 x 0.300 m  vs  ego 0.478 x 0.306 m  (scale 0.60)
+[PASS] scenery: nothing on a road, sidewalk or the junction plaza                   []
+[PASS] scenery: instanced, ~2000 instances in 8 instancers                          1992 instances
+[PASS] runtime armed with traffic + ego + log hooks (physics-step driven)           hooks: ['ego', 'log', 'traffic']
+[PASS] ROS Ackermann graph switched off while the in-sim ego drives                 
+[PASS] CSV logger registered but OFF by default                                     
+[PASS] ego decision function present: ego_decide(light, obstacle_dist, pose, plan)  
+[PASS] live: sim clock advanced on the fixed physics step                           24.0 s of sim time, 1428 steps
+[PASS] live: no two NPCs ever overlap                                               0 overlapping steps
+[PASS] live: NPC prim poses follow the planner                                      0 mismatches
+[PASS] live: every NPC makes progress                                               min 11.5 m
+[PASS] live: signals cycle GREEN -> YELLOW -> RED on both axes                      X ['GREEN', 'RED', 'YELLOW'], Y ['GREEN', 'RED', 'YELLOW']
+[PASS] live: the ego drives (moves under physics) under its own decisions           drove 20.8 m, decisions {'go': 1428}
+[PASS] live: no ego-NPC collision                                                   collisions=0, closest NPC 1.00 m
+[PASS] live: Stop reset everything (ego back at start, sim time 0)                  
+[PASS] traffic + signals step is cheap (< 3 ms incl. USD writes)                    0.98 ms/step with 10 NPCs
+=========================================================================================================
+29/29 checks passed

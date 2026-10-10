@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# runlabel npc10  -> the NEXT recorded run is labelled "npc10". No argument shows the current label.
+f=$HOME/ros2_ws/data/label.txt
+[ -n "$1" ] && echo "$1" > "$f"
+echo "next run label: $(cat "$f" 2>/dev/null || echo nolabel)"

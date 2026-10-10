@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Fast DDS Discovery Server helper for the Isaac Sim <-> WSL bridge.
+#   dds-server status   print RUNNING/STOPPED (exit 0/1)
+#   dds-server start    start it in the background if not already running
+#   dds-server stop     stop it
+PORT=11811
+LOG=/tmp/fastdds_discovery.log
+running() { pgrep -f "fast-discovery-server .*-p $PORT" >/dev/null; }
+case "${1:-status}" in
+  status) if running; then echo "RUNNING: discovery server on port $PORT (pid $(pgrep -f "fast-discovery-server .*-p $PORT" | head -1))"; else echo "STOPPED: discovery server is not running"; exit 1; fi ;;
+  start)  running || { source /opt/ros/humble/setup.bash; setsid nohup fastdds discovery -i 0 -l 0.0.0.0 -p $PORT >"$LOG" 2>&1 </dev/null & disown; } ;;
+  stop)   pkill -f "fast-discovery-server .*-p $PORT" && echo stopped ;;
+  *) echo "usage: dds-server status|start|stop"; exit 2 ;;
+esac

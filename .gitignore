@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+# build-time screenshots in the project root
+/*.png
+# scene backups and Isaac Sim autosaves
+zaixen_scene_backup_*.usd
+# full simulator logs (copies live in AI_team_data on the ai-team-data branch)
+logs/sim_log_*.csv
+# editor / OS files
+.vscode/
+Thumbs.db
