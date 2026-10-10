@@ -1,0 +1,50 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 60266666667
+  starting_time:
+    nanoseconds_since_epoch: 216666666
+  message_count: 18076
+  topics_with_message_count:
+    - topic_metadata:
+        name: /contact
+        type: std_msgs/msg/Float32
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3617
+    - topic_metadata:
+        name: /odom
+        type: nav_msgs/msg/Odometry
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3617
+    - topic_metadata:
+        name: /imu
+        type: sensor_msgs/msg/Imu
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3608
+    - topic_metadata:
+        name: /tf
+        type: tf2_msgs/msg/TFMessage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3617
+    - topic_metadata:
+        name: /clock
+        type: rosgraph_msgs/msg/Clock
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3617
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - run_20261010_223042_02_npc10_0.db3
+  files:
+    - path: run_20261010_223042_02_npc10_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 216666666
+      duration:
+        nanoseconds: 60266666667
+      message_count: 18076

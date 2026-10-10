@@ -1,0 +1,5 @@
+label,npc_cars,sim_seconds,ros_bag_folder,csv_file,csv_run_column,notes
+npc0,0,67.2,ros_bags/run_20261010_222328_01_npc0,csv_logs/sim_log_20261010_222152.csv,9,trial run; ego alone on the road
+npc10,10,60.3,ros_bags/run_20261010_223042_02_npc10,csv_logs/sim_log_20261010_223041.csv,10,ego behaves exactly like npc0
+npc20,20,60.1,ros_bags/run_20261010_223333_03_npc20,csv_logs/sim_log_20261010_223041.csv,11,ego behaves exactly like npc0
+npc30,30,59.9,ros_bags/run_20261010_223657_04_npc30,csv_logs/sim_log_20261010_223041.csv,12,ego slowed by cars ahead from sim 12 s; near-touch about sim 42.6-47.6 s

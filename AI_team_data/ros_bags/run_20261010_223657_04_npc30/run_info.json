@@ -1,0 +1,16 @@
+{
+  "bag": "run_20261010_223657_04_npc30",
+  "label": "npc30",
+  "wall_start": "2026-10-10 22:36:57",
+  "wall_end": "2026-10-10 22:40:43",
+  "sim_start_s": 0.15,
+  "sim_end_s": 60.066666666,
+  "ended_because": "sim stopped",
+  "messages": {
+    "/clock": 3596,
+    "/imu": 3595,
+    "/odom": 3595,
+    "/contact": 3588,
+    "/tf": 3595
+  }
+}
