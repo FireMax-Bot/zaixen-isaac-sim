@@ -1,0 +1,173 @@
+{
+ "dataset_meta": {
+  "type": "attack",
+  "attack_name": "unauthorized_subscription",
+  "attack_no": 15,
+  "level": 1,
+  "levels_in_cell": 1,
+  "level_values": null,
+  "npc": 20,
+  "seed": 2,
+  "attack_start_s": 30,
+  "attack_stop_s": 60,
+  "attempt": 1,
+  "git_commit": "ee85f07f1d5ef2070c03a62b8a5bdec1cee3be26",
+  "local_domain": 61
+ },
+ "scenario": "unauthorized_subscription_L1_npc20_seed2",
+ "seed": 2,
+ "ego_driven_by": "in-sim python callback, not ROS",
+ "npc_count": 20,
+ "ideal_sensors": true,
+ "run_dir": "abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc20_seed2",
+ "git_commit": "ee85f07f1d5ef2070c03a62b8a5bdec1cee3be26",
+ "git_note": "commit of /mnt/d/Robotics/Projects/zaixen-isaac-sim (the WSL workspace ~/ros2_ws is not a git repo)",
+ "package_versions": {
+  "python": "3.10.12",
+  "ROS_DISTRO": "humble",
+  "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "PyYAML": "5.4.1",
+  "psutil": "5.9.0",
+  "matplotlib": "3.5.1",
+  "pytest": "6.2.5",
+  "ros-humble-rclpy": "3.3.21-1jammy.20260421.025639",
+  "ros-humble-fastrtps": "2.6.11-1jammy.20260304.200925",
+  "ros-humble-rmw-fastrtps-cpp": "6.2.10-1jammy.20260414.141625"
+ },
+ "scenario_config": {
+  "name": "unauthorized_subscription_L1_npc20_seed2",
+  "seed": 2,
+  "duration_s": 90,
+  "warmup_s": 5,
+  "npc_count": 20,
+  "attacks": [
+   {
+    "type": "unauthorized_subscription",
+    "start_s": 30,
+    "stop_s": 60,
+    "params": {},
+    "target": "imu_odom",
+    "fields": []
+   }
+  ],
+  "meta": {
+   "type": "attack",
+   "attack_name": "unauthorized_subscription",
+   "attack_no": 15,
+   "level": 1,
+   "levels_in_cell": 1,
+   "level_values": null,
+   "npc": 20,
+   "seed": 2,
+   "attack_start_s": 30,
+   "attack_stop_s": 60
+  }
+ },
+ "wall_start_utc": "2026-10-24T19:31:27.462278+00:00",
+ "bridge": {
+  "local_domain_id": 61,
+  "sim_domain_id": 0,
+  "ROS_DISCOVERY_SERVER": "127.0.0.1:11811"
+ },
+ "startup_attempts": 1,
+ "status": "completed",
+ "wall_duration_s": 240.13329076766968,
+ "collector": {
+  "status": "completed",
+  "sim_duration_s": 94.616666667,
+  "queue_drops": 0,
+  "drops_by_topic": {},
+  "late_writes": 0,
+  "rx": {
+   "imu_mon": 5674,
+   "imu": 5678,
+   "odom_mon": 5674,
+   "odom": 5678,
+   "contact_mon": 5674,
+   "contact": 5678
+  },
+  "rows": {
+   "raw.csv": 136176,
+   "raw_clean.csv": 136272,
+   "events.csv": 2
+  },
+  "file_bytes": {
+   "raw.csv": 12632549,
+   "raw_clean.csv": 12096342,
+   "events.csv": 612
+  },
+  "bytes_per_sim_minute": {
+   "raw.csv": 8010776.184576322,
+   "raw_clean.csv": 7670747.084700825,
+   "events.csv": 388.09230227095964
+  },
+  "relay_latency_wall": {
+   "n": 11348,
+   "median_ms": 1.550867,
+   "p99_ms": 12.819189940000005,
+   "max_ms": 301.615412,
+   "note": "wall-clock raw-receipt -> _mon-receipt in one process, includes both DDS hops"
+  }
+ },
+ "relay": {
+  "internal_processing_ms": {
+   "n": 17061,
+   "median": 0.156116,
+   "p99": 0.32401420000000014,
+   "max": 3.461733
+  },
+  "counts": {
+   "imu": {
+    "in": 5687,
+    "out": 5687
+   },
+   "odom": {
+    "in": 5687,
+    "out": 5687
+   },
+   "contact": {
+    "in": 5687,
+    "out": 5687
+   }
+  }
+ },
+ "telemetry_baseline": {
+  "sim_time_ns": 6579516666666,
+  "nodes": [
+   "/zaixen_collector",
+   "/zaixen_relay",
+   "/zaixen_scheduler",
+   "/zaixen_telemetry"
+  ],
+  "sub_count": {
+   "/imu_mon": 2,
+   "/odom_mon": 2,
+   "/contact_mon": 2
+  },
+  "pub_count": {
+   "/imu_mon": 1,
+   "/odom_mon": 1,
+   "/contact_mon": 1
+  }
+ },
+ "run_state": {
+  "t0_sim_ns": 6577683333333,
+  "scenario": "unauthorized_subscription_L1_npc20_seed2",
+  "seed": 2,
+  "duration_s": 90,
+  "warmup_s": 5
+ },
+ "schema_check_aligned": {
+  "file": "aligned.csv",
+  "ok": true,
+  "errors": [],
+  "path": "/home/isc_noel/ros2_ws/data/dataset/unauthorized_subscription_L1_npc20_seed2/aligned.csv",
+  "all_nan_columns": [],
+  "rows": 4561,
+  "t_start_s": 6577.683333333,
+  "t_end_s": 6668.883333333,
+  "attack_rows": 1450
+ }
+}

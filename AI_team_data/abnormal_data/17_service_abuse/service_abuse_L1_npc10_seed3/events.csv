@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+2810450000000,2810450000000,start,atk00,service_abuse,relay,"{""attack_index"": 0, ""attack_params"": {""rate_hz"": 5.0}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": null}",service_abuse_L1_npc10_seed3
+2839266666666,2839266666666,stop,atk00,service_abuse,relay,"{""attack_index"": 0, ""attack_params"": {""rate_hz"": 5.0}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": null}",service_abuse_L1_npc10_seed3

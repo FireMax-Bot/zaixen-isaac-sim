@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+9312700000000,9312700000000,start,atk00,unauthorized_subscription,imu_odom,"{""attack_index"": 0, ""attack_params"": {}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": null}",unauthorized_subscription_L1_npc30_seed3
+9341866666666,9341866666666,stop,atk00,unauthorized_subscription,imu_odom,"{""attack_index"": 0, ""attack_params"": {}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": null}",unauthorized_subscription_L1_npc30_seed3

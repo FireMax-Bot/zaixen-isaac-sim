@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+1603233333333,1603233333333,start,atk00,drop,odom,"{""attack_index"": 0, ""attack_params"": {""p"": 0.1}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [], ""topic"": ""odom""}]}",drop_L1_npc10_seed3
+1633233333333,1633233333333,stop,atk00,drop,odom,"{""attack_index"": 0, ""attack_params"": {""p"": 0.1}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [], ""topic"": ""odom""}]}",drop_L1_npc10_seed3

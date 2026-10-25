@@ -1,0 +1,162 @@
+{
+ "dataset_meta": {
+  "type": "normal",
+  "attack_name": "none",
+  "attack_no": 0,
+  "level": 0,
+  "levels_in_cell": 0,
+  "npc": 30,
+  "seed": 2,
+  "attack_start_s": null,
+  "attack_stop_s": null,
+  "attempt": 1,
+  "git_commit": "ee85f07f1d5ef2070c03a62b8a5bdec1cee3be26",
+  "local_domain": 61
+ },
+ "scenario": "normal_npc30_seed2",
+ "seed": 2,
+ "ego_driven_by": "in-sim python callback, not ROS",
+ "npc_count": 30,
+ "ideal_sensors": true,
+ "run_dir": "normal_data/normal_npc30_seed2",
+ "git_commit": "ee85f07f1d5ef2070c03a62b8a5bdec1cee3be26",
+ "git_note": "commit of /mnt/d/Robotics/Projects/zaixen-isaac-sim (the WSL workspace ~/ros2_ws is not a git repo)",
+ "package_versions": {
+  "python": "3.10.12",
+  "ROS_DISTRO": "humble",
+  "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "PyYAML": "5.4.1",
+  "psutil": "5.9.0",
+  "matplotlib": "3.5.1",
+  "pytest": "6.2.5",
+  "ros-humble-rclpy": "3.3.21-1jammy.20260421.025639",
+  "ros-humble-fastrtps": "2.6.11-1jammy.20260304.200925",
+  "ros-humble-rmw-fastrtps-cpp": "6.2.10-1jammy.20260414.141625"
+ },
+ "scenario_config": {
+  "name": "normal_npc30_seed2",
+  "seed": 2,
+  "duration_s": 90,
+  "warmup_s": 5,
+  "npc_count": 30,
+  "attacks": [],
+  "meta": {
+   "type": "normal",
+   "attack_name": "none",
+   "attack_no": 0,
+   "level": 0,
+   "levels_in_cell": 0,
+   "npc": 30,
+   "seed": 2,
+   "attack_start_s": null,
+   "attack_stop_s": null
+  }
+ },
+ "wall_start_utc": "2026-10-24T19:45:03.000384+00:00",
+ "bridge": {
+  "local_domain_id": 61,
+  "sim_domain_id": 0,
+  "ROS_DISCOVERY_SERVER": "127.0.0.1:11811"
+ },
+ "startup_attempts": 1,
+ "status": "completed",
+ "wall_duration_s": 270.6092231273651,
+ "collector": {
+  "status": "completed",
+  "sim_duration_s": 94.466666666,
+  "queue_drops": 0,
+  "drops_by_topic": {},
+  "late_writes": 0,
+  "rx": {
+   "imu_mon": 5667,
+   "imu": 5670,
+   "odom_mon": 5667,
+   "odom": 5670,
+   "contact_mon": 5667,
+   "contact": 5670
+  },
+  "rows": {
+   "raw.csv": 136008,
+   "raw_clean.csv": 136080,
+   "events.csv": 0
+  },
+  "file_bytes": {
+   "raw.csv": 12620325,
+   "raw_clean.csv": 12082677,
+   "events.csv": 91
+  },
+  "bytes_per_sim_minute": {
+   "raw.csv": 8015732.180719942,
+   "raw_clean.csv": 7674247.918191068,
+   "events.csv": 57.798165138022576
+  },
+  "relay_latency_wall": {
+   "n": 11334,
+   "median_ms": 1.561599,
+   "p99_ms": 13.712220030000003,
+   "max_ms": 27.458409,
+   "note": "wall-clock raw-receipt -> _mon-receipt in one process, includes both DDS hops"
+  }
+ },
+ "relay": {
+  "internal_processing_ms": {
+   "n": 17001,
+   "median": 0.142745,
+   "p99": 0.296715,
+   "max": 1.624148
+  },
+  "counts": {
+   "imu": {
+    "in": 5668,
+    "out": 5668
+   },
+   "odom": {
+    "in": 5668,
+    "out": 5668
+   },
+   "contact": {
+    "in": 5668,
+    "out": 5668
+   }
+  }
+ },
+ "telemetry_baseline": {
+  "sim_time_ns": 6920966666666,
+  "nodes": [
+   "/zaixen_collector",
+   "/zaixen_relay",
+   "/zaixen_scheduler",
+   "/zaixen_telemetry"
+  ],
+  "sub_count": {
+   "/imu_mon": 2,
+   "/odom_mon": 2,
+   "/contact_mon": 2
+  },
+  "pub_count": {
+   "/imu_mon": 1,
+   "/odom_mon": 1,
+   "/contact_mon": 1
+  }
+ },
+ "run_state": {
+  "t0_sim_ns": 6918950000000,
+  "scenario": "normal_npc30_seed2",
+  "seed": 2,
+  "duration_s": 90,
+  "warmup_s": 5
+ },
+ "schema_check_aligned": {
+  "file": "aligned.csv",
+  "ok": true,
+  "errors": [],
+  "path": "/home/isc_noel/ros2_ws/data/dataset/normal_npc30_seed2/aligned.csv",
+  "all_nan_columns": [],
+  "rows": 4552,
+  "t_start_s": 6918.95,
+  "t_end_s": 7009.97,
+  "attack_rows": 0
+ }
+}

@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+7751966666666,7751966666666,start,atk00,replay,imu,"{""attack_index"": 0, ""attack_params"": {""length_s"": 5.0}, ""fields"": [""gyro""], ""seed"": 1, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [""gyro""], ""topic"": ""imu""}]}",replay_L1_npc30_seed1
+7781966666666,7781966666666,stop,atk00,replay,imu,"{""attack_index"": 0, ""attack_params"": {""length_s"": 5.0}, ""fields"": [""gyro""], ""seed"": 1, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [""gyro""], ""topic"": ""imu""}]}",replay_L1_npc30_seed1

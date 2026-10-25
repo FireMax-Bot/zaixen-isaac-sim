@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+8676483333333,8676483333333,start,atk00,clock_skew,odom,"{""attack_index"": 0, ""attack_params"": {""mode"": ""offset"", ""offset_s"": 0.1}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [], ""topic"": ""odom""}]}",clock_skew_L1_npc30_seed3
+8706483333333,8706483333333,stop,atk00,clock_skew,odom,"{""attack_index"": 0, ""attack_params"": {""mode"": ""offset"", ""offset_s"": 0.1}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [], ""topic"": ""odom""}]}",clock_skew_L1_npc30_seed3

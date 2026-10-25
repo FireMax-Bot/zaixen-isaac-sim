@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+5189516666666,5189516666666,start,atk00,missed_contact,contact,"{""attack_index"": 0, ""attack_params"": {}, ""fields"": [""flag""], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [""flag""], ""topic"": ""contact""}]}",missed_contact_L1_npc20_seed3
+5219516666666,5219516666666,stop,atk00,missed_contact,contact,"{""attack_index"": 0, ""attack_params"": {}, ""fields"": [""flag""], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [""flag""], ""topic"": ""contact""}]}",missed_contact_L1_npc20_seed3

@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+6702233333333,6702233333333,start,atk00,param_tamper,relay,"{""attack_index"": 0, ""attack_params"": {""max_rate_hz"": 10.0}, ""fields"": [], ""seed"": 1, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": null}",param_tamper_L1_npc20_seed1
+6731183333333,6731200000000,stop,atk00,param_tamper,relay,"{""attack_index"": 0, ""attack_params"": {""max_rate_hz"": 10.0}, ""fields"": [], ""seed"": 1, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": null}",param_tamper_L1_npc20_seed1

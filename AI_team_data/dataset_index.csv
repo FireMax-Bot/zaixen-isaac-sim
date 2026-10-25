@@ -1,0 +1,307 @@
+relative_path,type,attack_name,npc,seed,level,duration_s,n_rows,attack_start_s,attack_stop_s,startup_attempts,status,attack_no,levels_in_cell,level_values,t0_sim_s
+normal_data/normal_npc10_seed1,normal,none,10,1,0,90,4561,,,1,completed,0,0,,214.35
+normal_data/normal_npc10_seed2,normal,none,10,2,0,90,4574,,,1,completed,0,0,,228.817
+normal_data/normal_npc10_seed3,normal,none,10,3,0,90,4571,,,1,completed,0,0,,234.317
+normal_data/normal_npc20_seed1,normal,none,20,1,0,90,4559,,,1,completed,0,0,,2885.783
+normal_data/normal_npc20_seed2,normal,none,20,2,0,90,4563,,,1,completed,0,0,,2893.95
+normal_data/normal_npc20_seed3,normal,none,20,3,0,90,4555,,,1,completed,0,0,,3084.9
+normal_data/normal_npc30_seed1,normal,none,30,1,0,90,4554,,,1,completed,0,0,,6911.083
+normal_data/normal_npc30_seed2,normal,none,30,2,0,90,4552,,,1,completed,0,0,,6918.95
+normal_data/normal_npc30_seed3,normal,none,30,3,0,90,4548,,,1,completed,0,0,,6926.517
+abnormal_data/01_noise/noise_L1_npc10_seed1,attack,noise,10,1,1,90,4562,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",243.683
+abnormal_data/01_noise/noise_L1_npc10_seed2,attack,noise,10,2,1,90,4564,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",314.5
+abnormal_data/01_noise/noise_L1_npc10_seed3,attack,noise,10,3,1,90,4575,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",329.483
+abnormal_data/01_noise/noise_L1_npc20_seed1,attack,noise,20,1,1,90,4564,30.0,60.0,3,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",2978.233
+abnormal_data/01_noise/noise_L1_npc20_seed2,attack,noise,20,2,1,90,4558,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",2985.217
+abnormal_data/01_noise/noise_L1_npc20_seed3,attack,noise,20,3,1,90,4572,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",3735.767
+abnormal_data/01_noise/noise_L1_npc30_seed1,attack,noise,30,1,1,90,4552,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",6934.1
+abnormal_data/01_noise/noise_L1_npc30_seed2,attack,noise,30,2,1,90,4554,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",7019.067
+abnormal_data/01_noise/noise_L1_npc30_seed3,attack,noise,30,3,1,90,4552,30.0,60.0,1,completed,1,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",7017.183
+abnormal_data/01_noise/noise_L2_npc10_seed1,attack,noise,10,1,2,90,4577,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",335.383
+abnormal_data/01_noise/noise_L2_npc10_seed2,attack,noise,10,2,2,90,4580,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",345.25
+abnormal_data/01_noise/noise_L2_npc10_seed3,attack,noise,10,3,2,90,4576,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",414.55
+abnormal_data/01_noise/noise_L2_npc20_seed1,attack,noise,20,1,2,90,4569,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",3823.717
+abnormal_data/01_noise/noise_L2_npc20_seed2,attack,noise,20,2,2,90,4565,30.0,60.0,3,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",3172.117
+abnormal_data/01_noise/noise_L2_npc20_seed3,attack,noise,20,3,2,90,4556,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",3184.383
+abnormal_data/01_noise/noise_L2_npc30_seed1,attack,noise,30,1,2,90,4551,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",7024.917
+abnormal_data/01_noise/noise_L2_npc30_seed2,attack,noise,30,2,2,90,4553,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",7033.533
+abnormal_data/01_noise/noise_L2_npc30_seed3,attack,noise,30,3,2,90,4557,30.0,60.0,1,completed,1,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",7115.35
+abnormal_data/01_noise/noise_L3_npc10_seed1,attack,noise,10,1,3,90,4571,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",431.4
+abnormal_data/01_noise/noise_L3_npc10_seed2,attack,noise,10,2,3,90,4576,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",438.1
+abnormal_data/01_noise/noise_L3_npc10_seed3,attack,noise,10,3,3,90,4574,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",448.867
+abnormal_data/01_noise/noise_L3_npc20_seed1,attack,noise,20,1,3,90,4564,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",3272.417
+abnormal_data/01_noise/noise_L3_npc20_seed2,attack,noise,20,2,3,90,4559,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",3284.167
+abnormal_data/01_noise/noise_L3_npc20_seed3,attack,noise,20,3,3,90,4559,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",3373.033
+abnormal_data/01_noise/noise_L3_npc30_seed1,attack,noise,30,1,3,90,4552,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",7129.9
+abnormal_data/01_noise/noise_L3_npc30_seed2,attack,noise,30,2,3,90,4554,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",7123.533
+abnormal_data/01_noise/noise_L3_npc30_seed3,attack,noise,30,3,3,90,4552,30.0,60.0,1,completed,1,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",7132.833
+abnormal_data/02_bias_drift/bias_drift_L1_npc10_seed1,attack,bias_drift,10,1,1,90,4575,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",515.45
+abnormal_data/02_bias_drift/bias_drift_L1_npc10_seed2,attack,bias_drift,10,2,1,90,4574,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",532.917
+abnormal_data/02_bias_drift/bias_drift_L1_npc10_seed3,attack,bias_drift,10,3,1,90,4571,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",540.05
+abnormal_data/02_bias_drift/bias_drift_L1_npc20_seed1,attack,bias_drift,20,1,1,90,4563,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",3383.967
+abnormal_data/02_bias_drift/bias_drift_L1_npc20_seed2,attack,bias_drift,20,2,1,90,4567,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",3473.783
+abnormal_data/02_bias_drift/bias_drift_L1_npc20_seed3,attack,bias_drift,20,3,1,90,4557,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",3484.083
+abnormal_data/02_bias_drift/bias_drift_L1_npc30_seed1,attack,bias_drift,30,1,1,90,4553,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",7213.733
+abnormal_data/02_bias_drift/bias_drift_L1_npc30_seed2,attack,bias_drift,30,2,1,90,4551,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",7222.233
+abnormal_data/02_bias_drift/bias_drift_L1_npc30_seed3,attack,bias_drift,30,3,1,90,4551,30.0,60.0,1,completed,2,3,"{""k"": 0.5, ""position_m"": 0.1, ""yaw_deg"": 5}",7229.367
+abnormal_data/02_bias_drift/bias_drift_L2_npc10_seed1,attack,bias_drift,10,1,2,90,4584,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",551.367
+abnormal_data/02_bias_drift/bias_drift_L2_npc10_seed2,attack,bias_drift,10,2,2,90,4579,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",616.767
+abnormal_data/02_bias_drift/bias_drift_L2_npc10_seed3,attack,bias_drift,10,3,2,90,4578,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",635.117
+abnormal_data/02_bias_drift/bias_drift_L2_npc20_seed1,attack,bias_drift,20,1,2,90,4561,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",3574.25
+abnormal_data/02_bias_drift/bias_drift_L2_npc20_seed2,attack,bias_drift,20,2,2,90,4566,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",3583.783
+abnormal_data/02_bias_drift/bias_drift_L2_npc20_seed3,attack,bias_drift,20,3,2,90,4565,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",4458.65
+abnormal_data/02_bias_drift/bias_drift_L2_npc30_seed1,attack,bias_drift,30,1,2,90,4553,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",7232.15
+abnormal_data/02_bias_drift/bias_drift_L2_npc30_seed2,attack,bias_drift,30,2,2,90,4553,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",7312.15
+abnormal_data/02_bias_drift/bias_drift_L2_npc30_seed3,attack,bias_drift,30,3,2,90,4553,30.0,60.0,1,completed,2,3,"{""k"": 1.0, ""position_m"": 0.3, ""yaw_deg"": 10}",7320.75
+abnormal_data/02_bias_drift/bias_drift_L3_npc10_seed1,attack,bias_drift,10,1,3,90,4571,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",642.783
+abnormal_data/02_bias_drift/bias_drift_L3_npc10_seed2,attack,bias_drift,10,2,3,90,4583,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",654.9
+abnormal_data/02_bias_drift/bias_drift_L3_npc10_seed3,attack,bias_drift,10,3,3,90,4576,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",718.467
+abnormal_data/02_bias_drift/bias_drift_L3_npc20_seed1,attack,bias_drift,20,1,3,90,4565,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",4468.517
+abnormal_data/02_bias_drift/bias_drift_L3_npc20_seed2,attack,bias_drift,20,2,3,90,4554,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",3835.7
+abnormal_data/02_bias_drift/bias_drift_L3_npc20_seed3,attack,bias_drift,20,3,3,90,4567,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",3923.783
+abnormal_data/02_bias_drift/bias_drift_L3_npc30_seed1,attack,bias_drift,30,1,3,90,4551,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",7328.417
+abnormal_data/02_bias_drift/bias_drift_L3_npc30_seed2,attack,bias_drift,30,2,3,90,4549,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",7331.283
+abnormal_data/02_bias_drift/bias_drift_L3_npc30_seed3,attack,bias_drift,30,3,3,90,4551,30.0,60.0,1,completed,2,3,"{""k"": 3.0, ""position_m"": 0.5, ""yaw_deg"": 20}",7410.433
+abnormal_data/03_jump/jump_L1_npc10_seed1,attack,jump,10,1,1,90,4580,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",737.283
+abnormal_data/03_jump/jump_L1_npc10_seed2,attack,jump,10,2,1,90,4571,30.0,60.0,2,completed,3,3,"{""range_mult"": 3.0}",785.683
+abnormal_data/03_jump/jump_L1_npc10_seed3,attack,jump,10,3,1,90,4583,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",758.05
+abnormal_data/03_jump/jump_L1_npc20_seed1,attack,jump,20,1,1,90,4566,30.0,60.0,2,completed,3,3,"{""range_mult"": 3.0}",3967.6
+abnormal_data/03_jump/jump_L1_npc20_seed2,attack,jump,20,2,1,90,4569,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",4024.667
+abnormal_data/03_jump/jump_L1_npc20_seed3,attack,jump,20,3,1,90,4566,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",4068.117
+abnormal_data/03_jump/jump_L1_npc30_seed1,attack,jump,30,1,1,90,4550,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",7419.467
+abnormal_data/03_jump/jump_L1_npc30_seed2,attack,jump,30,2,1,90,4551,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",7427.567
+abnormal_data/03_jump/jump_L1_npc30_seed3,attack,jump,30,3,1,90,4555,30.0,60.0,1,completed,3,3,"{""range_mult"": 3.0}",7430.133
+abnormal_data/03_jump/jump_L2_npc10_seed1,attack,jump,10,1,2,90,4580,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",820.117
+abnormal_data/03_jump/jump_L2_npc10_seed2,attack,jump,10,2,2,90,4580,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",839.367
+abnormal_data/03_jump/jump_L2_npc10_seed3,attack,jump,10,3,2,90,4580,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",860.9
+abnormal_data/03_jump/jump_L2_npc20_seed1,attack,jump,20,1,2,90,4572,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",4125.5
+abnormal_data/03_jump/jump_L2_npc20_seed2,attack,jump,20,2,2,90,4568,30.0,60.0,2,completed,3,3,"{""range_mult"": 10.0}",4216.583
+abnormal_data/03_jump/jump_L2_npc20_seed3,attack,jump,20,3,2,90,4575,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",4225.883
+abnormal_data/03_jump/jump_L2_npc30_seed1,attack,jump,30,1,2,90,4554,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",7508.633
+abnormal_data/03_jump/jump_L2_npc30_seed2,attack,jump,30,2,2,90,4552,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",7518.1
+abnormal_data/03_jump/jump_L2_npc30_seed3,attack,jump,30,3,2,90,4556,30.0,60.0,1,completed,3,3,"{""range_mult"": 10.0}",7526.5
+abnormal_data/03_jump/jump_L3_npc10_seed1,attack,jump,10,1,3,90,4580,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",888.5
+abnormal_data/03_jump/jump_L3_npc10_seed2,attack,jump,10,2,3,90,4576,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",922.05
+abnormal_data/03_jump/jump_L3_npc10_seed3,attack,jump,10,3,3,90,4578,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",941.367
+abnormal_data/03_jump/jump_L3_npc20_seed1,attack,jump,20,1,3,90,4567,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",5076.633
+abnormal_data/03_jump/jump_L3_npc20_seed2,attack,jump,20,2,3,90,4566,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",5086.65
+abnormal_data/03_jump/jump_L3_npc20_seed3,attack,jump,20,3,3,90,4569,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",4558.583
+abnormal_data/03_jump/jump_L3_npc30_seed1,attack,jump,30,1,3,90,4556,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",7529.183
+abnormal_data/03_jump/jump_L3_npc30_seed2,attack,jump,30,2,3,90,4552,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",7622.967
+abnormal_data/03_jump/jump_L3_npc30_seed3,attack,jump,30,3,3,90,4560,30.0,60.0,1,completed,3,3,"{""range_mult"": 30.0}",7616.967
+abnormal_data/04_freeze/freeze_L1_npc10_seed1,attack,freeze,10,1,1,90,4584,30.0,60.0,1,completed,4,1,,963.967
+abnormal_data/04_freeze/freeze_L1_npc10_seed2,attack,freeze,10,2,1,90,4581,30.0,60.0,1,completed,4,1,,991.117
+abnormal_data/04_freeze/freeze_L1_npc10_seed3,attack,freeze,10,3,1,90,4580,30.0,60.0,1,completed,4,1,,1023.717
+abnormal_data/04_freeze/freeze_L1_npc20_seed1,attack,freeze,20,1,1,90,4567,30.0,60.0,1,completed,4,1,,4569.283
+abnormal_data/04_freeze/freeze_L1_npc20_seed2,attack,freeze,20,2,1,90,4564,30.0,60.0,1,completed,4,1,,4659.267
+abnormal_data/04_freeze/freeze_L1_npc20_seed3,attack,freeze,20,3,1,90,4565,30.0,60.0,1,completed,4,1,,4669.967
+abnormal_data/04_freeze/freeze_L1_npc30_seed1,attack,freeze,30,1,1,90,4553,30.0,60.0,1,completed,4,1,,7625.7
+abnormal_data/04_freeze/freeze_L1_npc30_seed2,attack,freeze,30,2,1,90,4555,30.0,60.0,1,completed,4,1,,7628.15
+abnormal_data/04_freeze/freeze_L1_npc30_seed3,attack,freeze,30,3,1,90,4557,30.0,60.0,1,completed,4,1,,7715.433
+abnormal_data/05_replay/replay_L1_npc10_seed1,attack,replay,10,1,1,90,4570,30.0,60.0,1,completed,5,1,,1043.467
+abnormal_data/05_replay/replay_L1_npc10_seed2,attack,replay,10,2,1,90,4576,30.0,60.0,1,completed,5,1,,1067.033
+abnormal_data/05_replay/replay_L1_npc10_seed3,attack,replay,10,3,1,90,4571,30.0,60.0,1,completed,5,1,,1093.9
+abnormal_data/05_replay/replay_L1_npc20_seed1,attack,replay,20,1,1,90,4565,30.0,60.0,1,completed,5,1,,4759.467
+abnormal_data/05_replay/replay_L1_npc20_seed2,attack,replay,20,2,1,90,4558,30.0,60.0,1,completed,5,1,,4770.083
+abnormal_data/05_replay/replay_L1_npc20_seed3,attack,replay,20,3,1,90,4568,30.0,60.0,1,completed,5,1,,4859.533
+abnormal_data/05_replay/replay_L1_npc30_seed1,attack,replay,30,1,1,90,4550,30.0,60.0,1,completed,5,1,,7721.967
+abnormal_data/05_replay/replay_L1_npc30_seed2,attack,replay,30,2,1,90,4555,30.0,60.0,1,completed,5,1,,7725.133
+abnormal_data/05_replay/replay_L1_npc30_seed3,attack,replay,30,3,1,90,4551,30.0,60.0,1,completed,5,1,,7729.133
+abnormal_data/06_false_contact/false_contact_L1_npc10_seed1,attack,false_contact,10,1,1,90,4579,30.0,60.0,1,completed,6,1,,1125.483
+abnormal_data/06_false_contact/false_contact_L1_npc10_seed2,attack,false_contact,10,2,1,90,4573,30.0,60.0,1,completed,6,1,,1145.383
+abnormal_data/06_false_contact/false_contact_L1_npc10_seed3,attack,false_contact,10,3,1,90,4574,30.0,60.0,1,completed,6,1,,1170.517
+abnormal_data/06_false_contact/false_contact_L1_npc20_seed1,attack,false_contact,20,1,1,90,4561,30.0,60.0,1,completed,6,1,,4870.45
+abnormal_data/06_false_contact/false_contact_L1_npc20_seed2,attack,false_contact,20,2,1,90,4563,30.0,60.0,1,completed,6,1,,4959.717
+abnormal_data/06_false_contact/false_contact_L1_npc20_seed3,attack,false_contact,20,3,1,90,4563,30.0,60.0,1,completed,6,1,,4983.667
+abnormal_data/06_false_contact/false_contact_L1_npc30_seed1,attack,false_contact,30,1,1,90,4552,30.0,60.0,1,completed,6,1,,7813.9
+abnormal_data/06_false_contact/false_contact_L1_npc30_seed2,attack,false_contact,30,2,1,90,4553,30.0,60.0,1,completed,6,1,,7820.417
+abnormal_data/06_false_contact/false_contact_L1_npc30_seed3,attack,false_contact,30,3,1,90,4552,30.0,60.0,1,completed,6,1,,7824.8
+abnormal_data/07_missed_contact/missed_contact_L1_npc10_seed1,attack,missed_contact,10,1,1,90,4580,30.0,60.0,1,completed,7,1,,1196.433
+abnormal_data/07_missed_contact/missed_contact_L1_npc10_seed2,attack,missed_contact,10,2,1,90,4582,30.0,60.0,1,completed,7,1,,1227.117
+abnormal_data/07_missed_contact/missed_contact_L1_npc10_seed3,attack,missed_contact,10,3,1,90,4582,30.0,60.0,1,completed,7,1,,1247.617
+abnormal_data/07_missed_contact/missed_contact_L1_npc20_seed1,attack,missed_contact,20,1,1,90,4563,30.0,60.0,1,completed,7,1,,5059.583
+abnormal_data/07_missed_contact/missed_contact_L1_npc20_seed2,attack,missed_contact,20,2,1,90,4565,30.0,60.0,1,completed,7,1,,5083.517
+abnormal_data/07_missed_contact/missed_contact_L1_npc20_seed3,attack,missed_contact,20,3,1,90,4561,30.0,60.0,1,completed,7,1,,5159.517
+abnormal_data/07_missed_contact/missed_contact_L1_npc30_seed1,attack,missed_contact,30,1,1,90,4556,30.0,60.0,1,completed,7,1,,7828.433
+abnormal_data/07_missed_contact/missed_contact_L1_npc30_seed2,attack,missed_contact,30,2,1,90,4553,30.0,60.0,1,completed,7,1,,7912.133
+abnormal_data/07_missed_contact/missed_contact_L1_npc30_seed3,attack,missed_contact,30,3,1,90,4558,30.0,60.0,1,completed,7,1,,7918.6
+abnormal_data/08_delay/delay_L1_npc10_seed1,attack,delay,10,1,1,90,4575,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",1273.35
+abnormal_data/08_delay/delay_L1_npc10_seed2,attack,delay,10,2,1,90,4576,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",1299.05
+abnormal_data/08_delay/delay_L1_npc10_seed3,attack,delay,10,3,1,90,4580,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",1329.0
+abnormal_data/08_delay/delay_L1_npc20_seed1,attack,delay,20,1,1,90,4564,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",5176.433
+abnormal_data/08_delay/delay_L1_npc20_seed2,attack,delay,20,2,1,90,4559,30.0,60.0,3,completed,8,3,"{""d_s"": 0.1}",5249.183
+abnormal_data/08_delay/delay_L1_npc20_seed3,attack,delay,20,3,1,90,4561,30.0,60.0,2,completed,8,3,"{""d_s"": 0.1}",5220.4
+abnormal_data/08_delay/delay_L1_npc30_seed1,attack,delay,30,1,1,90,4555,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",7925.033
+abnormal_data/08_delay/delay_L1_npc30_seed2,attack,delay,30,2,1,90,4553,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",7928.333
+abnormal_data/08_delay/delay_L1_npc30_seed3,attack,delay,30,3,1,90,4551,30.0,60.0,1,completed,8,3,"{""d_s"": 0.1}",8010.783
+abnormal_data/08_delay/delay_L2_npc10_seed1,attack,delay,10,1,2,90,4577,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",1350.217
+abnormal_data/08_delay/delay_L2_npc10_seed2,attack,delay,10,2,2,90,4585,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",1376.233
+abnormal_data/08_delay/delay_L2_npc10_seed3,attack,delay,10,3,2,90,4569,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",1401.45
+abnormal_data/08_delay/delay_L2_npc20_seed1,attack,delay,20,1,2,90,4566,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",5259.2
+abnormal_data/08_delay/delay_L2_npc20_seed2,attack,delay,20,2,2,90,4556,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",5276.117
+abnormal_data/08_delay/delay_L2_npc20_seed3,attack,delay,20,3,2,90,4560,30.0,60.0,2,completed,8,3,"{""d_s"": 0.5}",5353.25
+abnormal_data/08_delay/delay_L2_npc30_seed1,attack,delay,30,1,2,90,4550,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",8016.9
+abnormal_data/08_delay/delay_L2_npc30_seed2,attack,delay,30,2,2,90,4555,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",8024.667
+abnormal_data/08_delay/delay_L2_npc30_seed3,attack,delay,30,3,2,90,4552,30.0,60.0,1,completed,8,3,"{""d_s"": 0.5}",8027.717
+abnormal_data/08_delay/delay_L3_npc10_seed1,attack,delay,10,1,3,90,4578,30.0,60.0,2,completed,8,3,"{""d_s"": 1.0}",1471.5
+abnormal_data/08_delay/delay_L3_npc10_seed2,attack,delay,10,2,3,90,4574,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",1452.4
+abnormal_data/08_delay/delay_L3_npc10_seed3,attack,delay,10,3,3,90,4577,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",1479.4
+abnormal_data/08_delay/delay_L3_npc20_seed1,attack,delay,20,1,3,90,4564,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",5349.817
+abnormal_data/08_delay/delay_L3_npc20_seed2,attack,delay,20,2,3,90,4562,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",5359.583
+abnormal_data/08_delay/delay_L3_npc20_seed3,attack,delay,20,3,3,90,4564,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",5375.4
+abnormal_data/08_delay/delay_L3_npc30_seed1,attack,delay,30,1,3,90,4546,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",8109.3
+abnormal_data/08_delay/delay_L3_npc30_seed2,attack,delay,30,2,3,90,4554,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",8115.017
+abnormal_data/08_delay/delay_L3_npc30_seed3,attack,delay,30,3,3,90,4556,30.0,60.0,1,completed,8,3,"{""d_s"": 1.0}",8124.0
+abnormal_data/09_drop/drop_L1_npc10_seed1,attack,drop,10,1,1,90,4579,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",1503.45
+abnormal_data/09_drop/drop_L1_npc10_seed2,attack,drop,10,2,1,90,4584,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",1554.25
+abnormal_data/09_drop/drop_L1_npc10_seed3,attack,drop,10,3,1,90,4579,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",1573.233
+abnormal_data/09_drop/drop_L1_npc20_seed1,attack,drop,20,1,1,90,4557,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",5450.467
+abnormal_data/09_drop/drop_L1_npc20_seed2,attack,drop,20,2,1,90,4568,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",5453.667
+abnormal_data/09_drop/drop_L1_npc20_seed3,attack,drop,20,3,1,90,4557,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",5459.7
+abnormal_data/09_drop/drop_L1_npc30_seed1,attack,drop,30,1,1,90,4552,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",8126.917
+abnormal_data/09_drop/drop_L1_npc30_seed2,attack,drop,30,2,1,90,4550,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",8207.167
+abnormal_data/09_drop/drop_L1_npc30_seed3,attack,drop,30,3,1,90,4549,30.0,60.0,1,completed,9,3,"{""p"": 0.1}",8213.683
+abnormal_data/09_drop/drop_L2_npc10_seed1,attack,drop,10,1,2,90,4583,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",1582.117
+abnormal_data/09_drop/drop_L2_npc10_seed2,attack,drop,10,2,2,90,4576,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",1605.967
+abnormal_data/09_drop/drop_L2_npc10_seed3,attack,drop,10,3,2,90,4569,30.0,60.0,2,completed,9,3,"{""p"": 0.3}",1697.217
+abnormal_data/09_drop/drop_L2_npc20_seed1,attack,drop,20,1,2,90,4560,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",5474.917
+abnormal_data/09_drop/drop_L2_npc20_seed2,attack,drop,20,2,2,90,4557,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",5551.033
+abnormal_data/09_drop/drop_L2_npc20_seed3,attack,drop,20,3,2,90,4559,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",5554.183
+abnormal_data/09_drop/drop_L2_npc30_seed1,attack,drop,30,1,2,90,4560,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",8223.35
+abnormal_data/09_drop/drop_L2_npc30_seed2,attack,drop,30,2,2,90,4561,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",8226.217
+abnormal_data/09_drop/drop_L2_npc30_seed3,attack,drop,30,3,2,90,4552,30.0,60.0,1,completed,9,3,"{""p"": 0.3}",8305.15
+abnormal_data/09_drop/drop_L3_npc10_seed1,attack,drop,10,1,3,90,4573,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",1681.367
+abnormal_data/09_drop/drop_L3_npc10_seed2,attack,drop,10,2,3,90,4582,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",1684.7
+abnormal_data/09_drop/drop_L3_npc10_seed3,attack,drop,10,3,3,90,4567,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",1739.05
+abnormal_data/09_drop/drop_L3_npc20_seed1,attack,drop,20,1,3,90,4567,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",5559.65
+abnormal_data/09_drop/drop_L3_npc20_seed2,attack,drop,20,2,3,90,4559,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",5574.367
+abnormal_data/09_drop/drop_L3_npc20_seed3,attack,drop,20,3,3,90,4567,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",5651.233
+abnormal_data/09_drop/drop_L3_npc30_seed1,attack,drop,30,1,3,90,4561,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",8311.917
+abnormal_data/09_drop/drop_L3_npc30_seed2,attack,drop,30,2,3,90,4551,30.0,60.0,2,completed,9,3,"{""p"": 0.6}",8350.9
+abnormal_data/09_drop/drop_L3_npc30_seed3,attack,drop,30,3,3,90,4558,30.0,60.0,1,completed,9,3,"{""p"": 0.6}",8325.633
+abnormal_data/10_duplicate/duplicate_L1_npc10_seed1,attack,duplicate,10,1,1,90,4581,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",1783.25
+abnormal_data/10_duplicate/duplicate_L1_npc10_seed2,attack,duplicate,10,2,1,90,4573,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",1786.6
+abnormal_data/10_duplicate/duplicate_L1_npc10_seed3,attack,duplicate,10,3,1,90,4586,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",1797.8
+abnormal_data/10_duplicate/duplicate_L1_npc20_seed1,attack,duplicate,20,1,1,90,4561,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",5654.217
+abnormal_data/10_duplicate/duplicate_L1_npc20_seed2,attack,duplicate,20,2,1,90,4566,30.0,60.0,3,completed,10,3,"{""p"": 0.1, ""m"": 1}",5726.083
+abnormal_data/10_duplicate/duplicate_L1_npc20_seed3,attack,duplicate,20,3,1,90,4566,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",5674.133
+abnormal_data/10_duplicate/duplicate_L1_npc30_seed1,attack,duplicate,30,1,1,90,4556,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",8403.3
+abnormal_data/10_duplicate/duplicate_L1_npc30_seed2,attack,duplicate,30,2,1,90,4546,30.0,60.0,2,completed,10,3,"{""p"": 0.1, ""m"": 1}",8439.783
+abnormal_data/10_duplicate/duplicate_L1_npc30_seed3,attack,duplicate,30,3,1,90,4553,30.0,60.0,1,completed,10,3,"{""p"": 0.1, ""m"": 1}",8425.083
+abnormal_data/10_duplicate/duplicate_L2_npc10_seed1,attack,duplicate,10,1,2,90,4577,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",1836.367
+abnormal_data/10_duplicate/duplicate_L2_npc10_seed2,attack,duplicate,10,2,2,90,4576,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",1885.433
+abnormal_data/10_duplicate/duplicate_L2_npc10_seed3,attack,duplicate,10,3,2,90,4572,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",1889.533
+abnormal_data/10_duplicate/duplicate_L2_npc20_seed1,attack,duplicate,20,1,2,90,4570,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",5751.4
+abnormal_data/10_duplicate/duplicate_L2_npc20_seed2,attack,duplicate,20,2,2,90,4562,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",5754.667
+abnormal_data/10_duplicate/duplicate_L2_npc20_seed3,attack,duplicate,20,3,2,90,4561,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",5773.717
+abnormal_data/10_duplicate/duplicate_L2_npc30_seed1,attack,duplicate,30,1,2,90,4555,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",8449.3
+abnormal_data/10_duplicate/duplicate_L2_npc30_seed2,attack,duplicate,30,2,2,90,4551,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",8502.0
+abnormal_data/10_duplicate/duplicate_L2_npc30_seed3,attack,duplicate,30,3,2,90,4547,30.0,60.0,1,completed,10,3,"{""p"": 0.3, ""m"": 2}",8524.233
+abnormal_data/10_duplicate/duplicate_L3_npc10_seed1,attack,duplicate,10,1,3,90,4580,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",1899.817
+abnormal_data/10_duplicate/duplicate_L3_npc10_seed2,attack,duplicate,10,2,3,90,4581,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",1938.717
+abnormal_data/10_duplicate/duplicate_L3_npc10_seed3,attack,duplicate,10,3,3,90,4579,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",1988.333
+abnormal_data/10_duplicate/duplicate_L3_npc20_seed1,attack,duplicate,20,1,3,90,4562,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",5826.417
+abnormal_data/10_duplicate/duplicate_L3_npc20_seed2,attack,duplicate,20,2,3,90,4561,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",5851.933
+abnormal_data/10_duplicate/duplicate_L3_npc20_seed3,attack,duplicate,20,3,3,90,4563,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",5855.067
+abnormal_data/10_duplicate/duplicate_L3_npc30_seed1,attack,duplicate,30,1,3,90,4549,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",8537.767
+abnormal_data/10_duplicate/duplicate_L3_npc30_seed2,attack,duplicate,30,2,3,90,4547,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",8548.1
+abnormal_data/10_duplicate/duplicate_L3_npc30_seed3,attack,duplicate,30,3,3,90,4551,30.0,60.0,1,completed,10,3,"{""p"": 0.6, ""m"": 3}",8600.333
+abnormal_data/11_clock_skew/clock_skew_L1_npc10_seed1,attack,clock_skew,10,1,1,90,4574,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",1992.667
+abnormal_data/11_clock_skew/clock_skew_L1_npc10_seed2,attack,clock_skew,10,2,1,90,4570,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",2001.8
+abnormal_data/11_clock_skew/clock_skew_L1_npc10_seed3,attack,clock_skew,10,3,1,90,4576,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",2041.367
+abnormal_data/11_clock_skew/clock_skew_L1_npc20_seed1,attack,clock_skew,20,1,1,90,4562,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",5873.617
+abnormal_data/11_clock_skew/clock_skew_L1_npc20_seed2,attack,clock_skew,20,2,1,90,4567,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",5926.667
+abnormal_data/11_clock_skew/clock_skew_L1_npc20_seed3,attack,clock_skew,20,3,1,90,4566,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",5952.7
+abnormal_data/11_clock_skew/clock_skew_L1_npc30_seed1,attack,clock_skew,30,1,1,90,4546,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",8622.85
+abnormal_data/11_clock_skew/clock_skew_L1_npc30_seed2,attack,clock_skew,30,2,1,90,4547,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",8635.75
+abnormal_data/11_clock_skew/clock_skew_L1_npc30_seed3,attack,clock_skew,30,3,1,90,4547,30.0,60.0,1,completed,11,3,"{""offset_s"": 0.1}",8646.483
+abnormal_data/11_clock_skew/clock_skew_L2_npc10_seed1,attack,clock_skew,10,1,2,90,4571,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",2091.567
+abnormal_data/11_clock_skew/clock_skew_L2_npc10_seed2,attack,clock_skew,10,2,2,90,4574,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",2095.4
+abnormal_data/11_clock_skew/clock_skew_L2_npc10_seed3,attack,clock_skew,10,3,2,90,4572,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",2103.75
+abnormal_data/11_clock_skew/clock_skew_L2_npc20_seed1,attack,clock_skew,20,1,2,90,4562,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",5955.817
+abnormal_data/11_clock_skew/clock_skew_L2_npc20_seed2,attack,clock_skew,20,2,2,90,4566,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",5973.233
+abnormal_data/11_clock_skew/clock_skew_L2_npc20_seed3,attack,clock_skew,20,3,2,90,4564,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",6027.083
+abnormal_data/11_clock_skew/clock_skew_L2_npc30_seed1,attack,clock_skew,30,1,2,90,4552,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",8698.45
+abnormal_data/11_clock_skew/clock_skew_L2_npc30_seed2,attack,clock_skew,30,2,2,90,4556,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",8721.667
+abnormal_data/11_clock_skew/clock_skew_L2_npc30_seed3,attack,clock_skew,30,3,2,90,4551,30.0,60.0,1,completed,11,3,"{""offset_s"": 1.0}",8733.8
+abnormal_data/11_clock_skew/clock_skew_L3_npc10_seed1,attack,clock_skew,10,1,3,90,4572,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",2143.7
+abnormal_data/11_clock_skew/clock_skew_L3_npc10_seed2,attack,clock_skew,10,2,3,90,4564,30.0,60.0,2,completed,11,3,"{""offset_s"": 5.0}",2233.75
+abnormal_data/11_clock_skew/clock_skew_L3_npc10_seed3,attack,clock_skew,10,3,3,90,4588,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",2197.5
+abnormal_data/11_clock_skew/clock_skew_L3_npc20_seed1,attack,clock_skew,20,1,3,90,4560,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",6053.033
+abnormal_data/11_clock_skew/clock_skew_L3_npc20_seed2,attack,clock_skew,20,2,3,90,4574,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",6056.3
+abnormal_data/11_clock_skew/clock_skew_L3_npc20_seed3,attack,clock_skew,20,3,3,90,4570,30.0,60.0,2,completed,11,3,"{""offset_s"": 5.0}",6105.217
+abnormal_data/11_clock_skew/clock_skew_L3_npc30_seed1,attack,clock_skew,30,1,3,90,4553,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",8744.85
+abnormal_data/11_clock_skew/clock_skew_L3_npc30_seed2,attack,clock_skew,30,2,3,90,4546,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",8796.333
+abnormal_data/11_clock_skew/clock_skew_L3_npc30_seed3,attack,clock_skew,30,3,3,90,4555,30.0,60.0,1,completed,11,3,"{""offset_s"": 5.0}",8820.8
+abnormal_data/12_flood/flood_L1_npc10_seed1,attack,flood,10,1,1,90,4571,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",2206.35
+abnormal_data/12_flood/flood_L1_npc10_seed2,attack,flood,10,2,1,90,4576,30.0,60.0,2,completed,12,3,"{""rate_hz"": 100.0}",2287.517
+abnormal_data/12_flood/flood_L1_npc10_seed3,attack,flood,10,3,1,90,4571,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",2299.417
+abnormal_data/12_flood/flood_L1_npc20_seed1,attack,flood,20,1,1,90,4569,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",6127.55
+abnormal_data/12_flood/flood_L1_npc20_seed2,attack,flood,20,2,1,90,4556,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",6242.633
+abnormal_data/12_flood/flood_L1_npc20_seed3,attack,flood,20,3,1,90,4564,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",6252.0
+abnormal_data/12_flood/flood_L1_npc30_seed1,attack,flood,30,1,1,90,4551,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",8831.983
+abnormal_data/12_flood/flood_L1_npc30_seed2,attack,flood,30,2,1,90,4555,30.0,60.0,2,completed,12,3,"{""rate_hz"": 100.0}",8872.367
+abnormal_data/12_flood/flood_L1_npc30_seed3,attack,flood,30,3,1,90,4551,30.0,60.0,1,completed,12,3,"{""rate_hz"": 100.0}",8893.95
+abnormal_data/12_flood/flood_L2_npc10_seed1,attack,flood,10,1,2,90,4570,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",2308.7
+abnormal_data/12_flood/flood_L2_npc10_seed2,attack,flood,10,2,2,90,4571,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",2334.1
+abnormal_data/12_flood/flood_L2_npc10_seed3,attack,flood,10,3,2,90,4568,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",2388.767
+abnormal_data/12_flood/flood_L2_npc20_seed1,attack,flood,20,1,2,90,4554,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",6260.917
+abnormal_data/12_flood/flood_L2_npc20_seed2,attack,flood,20,2,2,90,4558,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",6269.65
+abnormal_data/12_flood/flood_L2_npc20_seed3,attack,flood,20,3,2,90,4563,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",6341.9
+abnormal_data/12_flood/flood_L2_npc30_seed1,attack,flood,30,1,2,90,4552,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",8920.383
+abnormal_data/12_flood/flood_L2_npc30_seed2,attack,flood,30,2,2,90,4550,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",8930.3
+abnormal_data/12_flood/flood_L2_npc30_seed3,attack,flood,30,3,2,90,4556,30.0,60.0,1,completed,12,3,"{""rate_hz"": 200.0}",8971.333
+abnormal_data/12_flood/flood_L3_npc10_seed1,attack,flood,10,1,3,90,4564,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",63.333
+abnormal_data/12_flood/flood_L3_npc10_seed2,attack,flood,10,2,3,90,4578,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",73.317
+abnormal_data/12_flood/flood_L3_npc10_seed3,attack,flood,10,3,3,90,4576,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",83.35
+abnormal_data/12_flood/flood_L3_npc20_seed1,attack,flood,20,1,3,90,4558,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",6351.783
+abnormal_data/12_flood/flood_L3_npc20_seed2,attack,flood,20,2,3,90,4559,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",6360.65
+abnormal_data/12_flood/flood_L3_npc20_seed3,attack,flood,20,3,3,90,4561,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",6370.067
+abnormal_data/12_flood/flood_L3_npc30_seed1,attack,flood,30,1,3,90,4549,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",8992.15
+abnormal_data/12_flood/flood_L3_npc30_seed2,attack,flood,30,2,3,90,4548,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",9019.2
+abnormal_data/12_flood/flood_L3_npc30_seed3,attack,flood,30,3,3,90,4557,30.0,60.0,1,completed,12,3,"{""rate_hz"": 400.0}",9028.467
+abnormal_data/13_spoof/spoof_L1_npc10_seed1,attack,spoof,10,1,1,90,4567,32.917,60.3,1,completed,13,1,,2400.15
+abnormal_data/13_spoof/spoof_L1_npc10_seed2,attack,spoof,10,2,1,90,4562,32.967,60.283,1,completed,13,1,,2410.233
+abnormal_data/13_spoof/spoof_L1_npc10_seed3,attack,spoof,10,3,1,90,4569,32.933,60.3,1,completed,13,1,,2434.85
+abnormal_data/13_spoof/spoof_L1_npc20_seed1,attack,spoof,20,1,1,90,4557,32.75,60.25,2,completed,13,1,,6475.0
+abnormal_data/13_spoof/spoof_L1_npc20_seed2,attack,spoof,20,2,1,90,4556,32.7,60.267,1,completed,13,1,,6477.9
+abnormal_data/13_spoof/spoof_L1_npc20_seed3,attack,spoof,20,3,1,90,4560,32.5,60.25,1,completed,13,1,,6460.617
+abnormal_data/13_spoof/spoof_L1_npc30_seed1,attack,spoof,30,1,1,90,4546,31.983,60.25,1,completed,13,1,,9070.2
+abnormal_data/13_spoof/spoof_L1_npc30_seed2,attack,spoof,30,2,1,90,4557,32.2,60.267,2,completed,13,1,,9119.05
+abnormal_data/13_spoof/spoof_L1_npc30_seed3,attack,spoof,30,3,1,90,4549,32.167,60.167,1,completed,13,1,,9117.917
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc10_seed1,attack,unauthorized_node,10,1,1,90,4572,31.383,60.3,1,completed,14,1,,2489.8
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc10_seed2,attack,unauthorized_node,10,2,1,90,4570,31.35,60.3,1,completed,14,1,,2500.8
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc10_seed3,attack,unauthorized_node,10,3,1,90,4564,31.4,60.3,1,completed,14,1,,2511.367
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc20_seed1,attack,unauthorized_node,20,1,1,90,4561,31.267,60.267,1,completed,14,1,,6471.35
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc20_seed2,attack,unauthorized_node,20,2,1,90,4559,31.3,60.25,1,completed,14,1,,6560.35
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc20_seed3,attack,unauthorized_node,20,3,1,90,4554,31.283,60.283,1,completed,14,1,,6570.917
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc30_seed1,attack,unauthorized_node,30,1,1,90,4556,31.1,60.233,1,completed,14,1,,9127.167
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc30_seed2,attack,unauthorized_node,30,2,1,90,4556,31.133,60.233,1,completed,14,1,,9168.6
+abnormal_data/14_unauthorized_node/unauthorized_node_L1_npc30_seed3,attack,unauthorized_node,30,3,1,90,4551,31.083,60.233,1,completed,14,1,,9216.283
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc10_seed1,attack,unauthorized_subscription,10,1,1,90,4567,31.417,60.3,1,completed,15,1,,2535.483
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc10_seed2,attack,unauthorized_subscription,10,2,1,90,4575,31.35,60.283,1,completed,15,1,,2591.017
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc10_seed3,attack,unauthorized_subscription,10,3,1,90,4581,31.367,60.35,1,completed,15,1,,2624.217
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc20_seed1,attack,unauthorized_subscription,20,1,1,90,4556,31.283,60.267,1,completed,15,1,,6574.717
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc20_seed2,attack,unauthorized_subscription,20,2,1,90,4561,31.267,60.267,1,completed,15,1,,6577.683
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc20_seed3,attack,unauthorized_subscription,20,3,1,90,4557,31.367,60.283,1,completed,15,1,,6660.183
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc30_seed1,attack,unauthorized_subscription,30,1,1,90,4556,31.1,60.233,1,completed,15,1,,9223.917
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc30_seed2,attack,unauthorized_subscription,30,2,1,90,4554,31.083,60.217,1,completed,15,1,,9225.783
+abnormal_data/15_unauthorized_subscription/unauthorized_subscription_L1_npc30_seed3,attack,unauthorized_subscription,30,3,1,90,4556,31.05,60.217,1,completed,15,1,,9281.65
+abnormal_data/16_param_tamper/param_tamper_L1_npc10_seed1,attack,param_tamper,10,1,1,90,4575,31.633,60.317,1,completed,16,1,,2615.0
+abnormal_data/16_param_tamper/param_tamper_L1_npc10_seed2,attack,param_tamper,10,2,1,90,4576,31.383,60.333,1,completed,16,1,,2636.15
+abnormal_data/16_param_tamper/param_tamper_L1_npc10_seed3,attack,param_tamper,10,3,1,90,4571,31.517,60.333,1,completed,16,1,,2693.7
+abnormal_data/16_param_tamper/param_tamper_L1_npc20_seed1,attack,param_tamper,20,1,1,90,4561,31.333,60.283,1,completed,16,1,,6670.9
+abnormal_data/16_param_tamper/param_tamper_L1_npc20_seed2,attack,param_tamper,20,2,1,90,4565,31.617,60.283,1,completed,16,1,,6674.883
+abnormal_data/16_param_tamper/param_tamper_L1_npc20_seed3,attack,param_tamper,20,3,1,90,4565,31.217,60.267,2,completed,16,1,,6711.267
+abnormal_data/16_param_tamper/param_tamper_L1_npc30_seed1,attack,param_tamper,30,1,1,90,4550,31.1,60.25,1,completed,16,1,,9314.533
+abnormal_data/16_param_tamper/param_tamper_L1_npc30_seed2,attack,param_tamper,30,2,1,90,4556,31.017,60.233,1,completed,16,1,,9322.4
+abnormal_data/16_param_tamper/param_tamper_L1_npc30_seed3,attack,param_tamper,30,3,1,90,4555,31.033,60.217,1,completed,16,1,,9324.967
+abnormal_data/17_service_abuse/service_abuse_L1_npc10_seed1,attack,service_abuse,10,1,1,90,4581,31.783,60.333,1,completed,17,1,,2717.567
+abnormal_data/17_service_abuse/service_abuse_L1_npc10_seed2,attack,service_abuse,10,2,1,90,4589,31.667,60.367,1,completed,17,1,,2727.017
+abnormal_data/17_service_abuse/service_abuse_L1_npc10_seed3,attack,service_abuse,10,3,1,90,4584,31.567,60.383,2,completed,17,1,,2778.883
+abnormal_data/17_service_abuse/service_abuse_L1_npc20_seed1,attack,service_abuse,20,1,1,90,4560,31.35,60.283,1,completed,17,1,,6760.067
+abnormal_data/17_service_abuse/service_abuse_L1_npc20_seed2,attack,service_abuse,20,2,1,90,4567,31.75,60.283,1,completed,17,1,,6771.567
+abnormal_data/17_service_abuse/service_abuse_L1_npc20_seed3,attack,service_abuse,20,3,1,90,4565,31.433,60.317,2,completed,17,1,,6807.3
+abnormal_data/17_service_abuse/service_abuse_L1_npc30_seed1,attack,service_abuse,30,1,1,90,4554,31.0,60.25,1,completed,17,1,,9380.75
+abnormal_data/17_service_abuse/service_abuse_L1_npc30_seed2,attack,service_abuse,30,2,1,90,4555,31.1,60.217,1,completed,17,1,,9412.867
+abnormal_data/17_service_abuse/service_abuse_L1_npc30_seed3,attack,service_abuse,30,3,1,90,4554,31.033,60.217,1,completed,17,1,,9420.617

@@ -1,0 +1,3 @@
+sim_time_ns,recv_sim_time_ns,event,attack_id,attack_type,attack_target,params_json,run_id
+2018333333333,2018333333333,start,atk00,duplicate,imu,"{""attack_index"": 0, ""attack_params"": {""m"": 3, ""p"": 0.6}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [], ""topic"": ""imu""}]}",duplicate_L3_npc10_seed3
+2048333333333,2048316666666,stop,atk00,duplicate,imu,"{""attack_index"": 0, ""attack_params"": {""m"": 3, ""p"": 0.6}, ""fields"": [], ""seed"": 3, ""start_s_nominal"": 30, ""stop_s_nominal"": 60, ""targets"": [{""fields"": [], ""topic"": ""imu""}]}",duplicate_L3_npc10_seed3

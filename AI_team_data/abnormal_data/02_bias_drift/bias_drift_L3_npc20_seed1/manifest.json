@@ -1,0 +1,202 @@
+{
+ "dataset_meta": {
+  "type": "attack",
+  "attack_name": "bias_drift",
+  "attack_no": 2,
+  "level": 3,
+  "levels_in_cell": 3,
+  "level_values": {
+   "k": 3.0,
+   "position_m": 0.5,
+   "yaw_deg": 20
+  },
+  "npc": 20,
+  "seed": 1,
+  "attack_start_s": 30,
+  "attack_stop_s": 60,
+  "attempt": 2,
+  "git_commit": "ee85f07f1d5ef2070c03a62b8a5bdec1cee3be26",
+  "local_domain": 62
+ },
+ "scenario": "bias_drift_L3_npc20_seed1",
+ "seed": 1,
+ "ego_driven_by": "in-sim python callback, not ROS",
+ "npc_count": 20,
+ "ideal_sensors": true,
+ "run_dir": "abnormal_data/02_bias_drift/bias_drift_L3_npc20_seed1",
+ "git_commit": "ee85f07f1d5ef2070c03a62b8a5bdec1cee3be26",
+ "git_note": "commit of /mnt/d/Robotics/Projects/zaixen-isaac-sim (the WSL workspace ~/ros2_ws is not a git repo)",
+ "package_versions": {
+  "python": "3.10.12",
+  "ROS_DISTRO": "humble",
+  "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "PyYAML": "5.4.1",
+  "psutil": "5.9.0",
+  "matplotlib": "3.5.1",
+  "pytest": "6.2.5",
+  "ros-humble-rclpy": "3.3.21-1jammy.20260421.025639",
+  "ros-humble-fastrtps": "2.6.11-1jammy.20260304.200925",
+  "ros-humble-rmw-fastrtps-cpp": "6.2.10-1jammy.20260414.141625"
+ },
+ "scenario_config": {
+  "name": "bias_drift_L3_npc20_seed1",
+  "seed": 1,
+  "duration_s": 90,
+  "warmup_s": 5,
+  "npc_count": 20,
+  "attacks": [
+   {
+    "type": "bias_drift",
+    "start_s": 30,
+    "stop_s": 60,
+    "params": {
+     "mode": "constant",
+     "k": 3.0,
+     "position_m": 0.5,
+     "yaw_deg": 20
+    },
+    "targets": [
+     {
+      "target": "imu",
+      "fields": [
+       "accel",
+       "gyro",
+       "orientation"
+      ]
+     },
+     {
+      "target": "odom",
+      "fields": [
+       "position",
+       "pose_orientation",
+       "twist"
+      ]
+     }
+    ]
+   }
+  ],
+  "meta": {
+   "type": "attack",
+   "attack_name": "bias_drift",
+   "attack_no": 2,
+   "level": 3,
+   "levels_in_cell": 3,
+   "level_values": {
+    "k": 3.0,
+    "position_m": 0.5,
+    "yaw_deg": 20
+   },
+   "npc": 20,
+   "seed": 1,
+   "attack_start_s": 30,
+   "attack_stop_s": 60
+  }
+ },
+ "wall_start_utc": "2026-10-24T18:06:31.061339+00:00",
+ "bridge": {
+  "local_domain_id": 62,
+  "sim_domain_id": 0,
+  "ROS_DISCOVERY_SERVER": "127.0.0.1:11811"
+ },
+ "startup_attempts": 1,
+ "status": "completed",
+ "wall_duration_s": 234.55107235908508,
+ "collector": {
+  "status": "completed",
+  "sim_duration_s": 95.083333333,
+  "queue_drops": 0,
+  "drops_by_topic": {},
+  "late_writes": 0,
+  "rx": {
+   "imu_mon": 5702,
+   "imu": 5706,
+   "odom_mon": 5702,
+   "odom": 5706,
+   "contact_mon": 5702,
+   "contact": 5706
+  },
+  "rows": {
+   "raw.csv": 136848,
+   "raw_clean.csv": 136944,
+   "events.csv": 2
+  },
+  "file_bytes": {
+   "raw.csv": 12658348,
+   "raw_clean.csv": 12154030,
+   "events.csv": 1004
+  },
+  "bytes_per_sim_minute": {
+   "raw.csv": 7987739.316417135,
+   "raw_clean.csv": 7669501.840517684,
+   "events.csv": 633.5495179689169
+  },
+  "relay_latency_wall": {
+   "n": 11404,
+   "median_ms": 1.689259,
+   "p99_ms": 14.355292869999998,
+   "max_ms": 25.812137,
+   "note": "wall-clock raw-receipt -> _mon-receipt in one process, includes both DDS hops"
+  }
+ },
+ "relay": {
+  "internal_processing_ms": {
+   "n": 17115,
+   "median": 0.136901,
+   "p99": 0.5827505200000005,
+   "max": 0.945451
+  },
+  "counts": {
+   "imu": {
+    "in": 5705,
+    "out": 5705
+   },
+   "odom": {
+    "in": 5705,
+    "out": 5705
+   },
+   "contact": {
+    "in": 5705,
+    "out": 5705
+   }
+  }
+ },
+ "telemetry_baseline": {
+  "sim_time_ns": 4470166666666,
+  "nodes": [
+   "/zaixen_collector",
+   "/zaixen_relay",
+   "/zaixen_scheduler",
+   "/zaixen_telemetry"
+  ],
+  "sub_count": {
+   "/imu_mon": 2,
+   "/odom_mon": 2,
+   "/contact_mon": 2
+  },
+  "pub_count": {
+   "/imu_mon": 1,
+   "/odom_mon": 1,
+   "/contact_mon": 1
+  }
+ },
+ "run_state": {
+  "t0_sim_ns": 4468516666666,
+  "scenario": "bias_drift_L3_npc20_seed1",
+  "seed": 1,
+  "duration_s": 90,
+  "warmup_s": 5
+ },
+ "schema_check_aligned": {
+  "file": "aligned.csv",
+  "ok": true,
+  "errors": [],
+  "path": "/home/isc_noel/ros2_ws/data/dataset/bias_drift_L3_npc20_seed1/aligned.csv",
+  "all_nan_columns": [],
+  "rows": 4565,
+  "t_start_s": 4468.516666666,
+  "t_end_s": 4559.796666666,
+  "attack_rows": 1500
+ }
+}
